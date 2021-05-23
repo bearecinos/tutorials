@@ -7,17 +7,20 @@
   chapters:
     - file: notebooks/getting_started
     - file: notebooks/working_with_rgi
+    - file: notebooks/store_and_compress_glacierdirs
+    - file: notebooks/elevation_bands_vs_centerlines
     - file: notebooks/plot_mass_balance
     - file: notebooks/area_length_filter
     - file: notebooks/run_with_gcm
     - file: notebooks/deal_with_errors
     - file: notebooks/inversion
-    - file: notebooks/store_and_compress_glacierdirs
-    - file: notebooks/elevation_bands_vs_centerlines
+    - file: notebooks/hydrological_output
+    - file: notebooks/oggm_shop
 
 - part: Advanced tutorials
   chapters:
     - file: notebooks/preprocessing_errors
+    - file: notebooks/run_with_a_spinup_and_gcm_data
     - file: notebooks/dem_sources
     - file: notebooks/thickness_model
     - file: notebooks/inversion_with_frontal_ablation
@@ -26,10 +29,9 @@
     - file: notebooks/use_your_own_inventory
     - file: notebooks/massbalance_calibration
     - file: notebooks/where_are_the_flowlines
-    - file: notebooks/oggm_shop
     
 
 - part: Others
   chapters:
-    - file: notebooks/pyviz_intro
+    - file: notebooks/holoviz_intro
     - file: notebooks/dem_comparison
